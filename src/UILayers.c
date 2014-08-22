@@ -448,7 +448,7 @@ Window * InitializeConfirmationWindow(TextLayer *exitText, TextLayer *yesText, T
 	Layer *window_layer = window_get_root_layer(window);
 	
 	exitText = InitializeTextLayer(exitFrame, fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
-	text_layer_set_text(exitText, "Exit?");
+	text_layer_set_text(exitText, "Time for some thrilling heroics?");
 	text_layer_set_text_alignment(exitText, GTextAlignmentCenter);
 	layer_add_child(window_layer, text_layer_get_layer(exitText));
 
