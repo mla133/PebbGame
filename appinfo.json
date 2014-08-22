@@ -119,7 +119,7 @@
 	{
 	    "name": "IMAGE_BACKGROUND",
 	    "type": "png",
-	    "file": "images/galaxy.png"
+	    "file": "images/background.png"
 	},
 	{
 	    "menuIcon": true,
